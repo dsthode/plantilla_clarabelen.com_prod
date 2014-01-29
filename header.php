@@ -34,7 +34,7 @@
 
 <meta property="fb:admins" content="1621837217">
 <meta property="fb:app_id" content="281305141912848">
-
+<meta name="google-translate-customization" content="3c2e0aae0b0548ff-f005370d9d0dfb0a-g0ebf306c057036ec-1c">
 <title><?php bloginfo('name'); ?> | <?php is_home() ? bloginfo('description') : wp_title(''); ?></title>
  
 <link rel="profile" href="http://gmpg.org/xfn/11" />
