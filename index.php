@@ -1,7 +1,11 @@
 <?php get_header(); ?>
 
 	<div class="col-sm-12">
-		<div class="center-block"><?php if (!is_preview() && !is_user_logged_in() && function_exists('advman_ad')) advman_ad('horizontal_grande') ?></div>
+		<div class="center-block">
+			<?php if (!is_preview() && !is_user_logged_in()) { ?>
+				<ins style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9233923211507737" data-ad-slot="2275774469"></ins>
+			<?php } ?>
+		</div>
 	</div>
 
 <div class="row">
@@ -14,7 +18,11 @@
 	} 
 ?>
 		<div class="col-sm-12">
-			<div style="width:468px;margin:0 auto"><?php if (!is_preview() && !is_user_logged_in() && function_exists('advman_ad')) advman_ad('468x60_principal_horizontal') ?></div>
+			<div style="width:468px;margin:0 auto">
+				<?php if (!is_preview() && !is_user_logged_in()) { ?>
+					<ins style="display:inline-block;width:468px;height:60px" data-ad-client="ca-pub-9233923211507737" data-ad-slot="6552603015"></ins>
+				<?php } ?>
+			</div>
 		</div>
 
 		<div class="col-sm-12 post-list">

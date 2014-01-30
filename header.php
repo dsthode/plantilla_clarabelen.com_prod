@@ -45,9 +45,9 @@
   <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 <![endif]-->
 
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" >
 <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" >
 
 <link rel="canonical" href="">
 
