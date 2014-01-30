@@ -96,7 +96,7 @@
 <div>
 	<div class="pull-right">
 		<a target="_blank" href="https://plus.google.com/u/0/106083749576655779266/posts" alt="Mi perfil de Google+"><i class="icon-googleplus sprite-icon"></i></a>
-		<a target="_blank" href="https://www.facebook.com/inspirateconclara" alt="Mi página de Facebook" class="icon-facebook sprite-icon">&nbsp;</a>
+		<a target="_blank" href="https://www.facebook.com/inspirateconclara" alt="Mi página de Facebook" class="icon-facebook sprite-icon"></a>
 		<a target="_blank" href="https://twitter.com/clarabelengomez" alt="Mi perfil de Twitter" class="icon-twitter sprite-icon"></a>
 		<a target="_blank" href="http://www.pinterest.com" alt="Mi perfil de Pinterest" class="icon-pinterest sprite-icon"></a>
 		<a target="_blank" href="<?php bloginfo('rss2_url'); ?>" alt="Mi feed RSS" class="icon-rss sprite-icon"></a>
