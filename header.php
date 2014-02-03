@@ -75,7 +75,7 @@
 			wp_nav_menu( array(
 				'menu'              => 'secondary',
 				'theme_location'    => 'secondary-menu',
-				'depth'             => 3,
+				'depth'             => 4,
 				'container'         => 'div',
 				'container_id'			=> 'secondary-menu-navbar-collapse',
 				'container_class'   => 'collapse navbar-collapse navbar-ex1-collapse',
@@ -116,7 +116,7 @@
 		wp_nav_menu( array(
 			'menu'              => 'primary',
 			'theme_location'    => 'primary-menu',
-			'depth'             => 3,
+			'depth'             => 4,
 			'container'         => 'div',
 			'container_id'			=> 'primary-menu-navbar-collapse',
 			'container_class'   => 'collapse navbar-collapse navbar-ex1-collapse',
