@@ -38,7 +38,7 @@
 				<?php } ?>
 			</div>
 		</div>
-
+			<?php if(have_posts()) : ?>
 				<?php include('post_list.php'); ?>
 				<div class="navigation col-sm-12">
 					<div class="col-sm-6 navigation-anteriores"><?php previous_posts_link('&laquo; Entradas anteriores'); ?></div>
