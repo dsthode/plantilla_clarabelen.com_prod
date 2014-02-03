@@ -66,7 +66,7 @@ class wp_bootstrap_navwalker extends Walker_Nav_Menu {
 													if ($depth > 0) {
 														$class_names .= ' dropdown-submenu';
 													} else {
-														$class_names .= 'dropdown';
+														$class_names .= ' dropdown';
 													}
 												}
 
