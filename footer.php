@@ -1,5 +1,7 @@
 	</div>
 
+<div id='div-gpt-ad-1392106267992-2' style='width:336px; height:280px;'></div>
+
 </div><!-- /.container -->
 
 <div class="pattern-footer">
@@ -20,6 +22,7 @@
 
 <?php wp_footer(); ?>
 <script src="<?php bloginfo('template_url'); ?>/script.js" type="text/javascript"></script>
+<script src="http://red.facilisimo.com/js/enquire.js"></script>
 <?php include('analytics.php'); ?>
 </body>
 </html>

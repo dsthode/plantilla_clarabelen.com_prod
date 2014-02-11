@@ -3,7 +3,8 @@
 	<div class="col-sm-12">
 		<div class="center-block">
 			<?php if (!is_preview() && !is_user_logged_in()) { ?>
-				<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9233923211507737" data-ad-slot="2275774469"></ins>
+				<div id='div-gpt-ad-1392106267992-3' style='width:728px; height:90px;' class="publi-responsive-grande"></div>
+				<div id='div-gpt-ad-1392106267992-1' style='width:320px; height:50px;' class="publi-responsive-peque"></div>
 			<?php } ?>
 		</div>
 	</div>
@@ -17,14 +18,6 @@
 		include('featured.php');
 	} 
 ?>
-		<div class="col-sm-12">
-			<div style="width:468px;margin:0 auto">
-				<?php if (!is_preview() && !is_user_logged_in()) { ?>
-					<ins class="adsbygoogle" style="display:inline-block;width:468px;height:60px" data-ad-client="ca-pub-9233923211507737" data-ad-slot="6552603015"></ins>
-				<?php } ?>
-			</div>
-		</div>
-
 		<div class="col-sm-12 post-list">
 			<?php if(have_posts()) : ?>
 				<h2 class="section-label">Entradas recientes</h2>

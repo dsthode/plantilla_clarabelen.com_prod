@@ -1,5 +1,13 @@
 <?php get_header(); ?>
 
+	<div class="col-sm-12">
+		<div class="center-block">
+			<?php if (!is_preview() && !is_user_logged_in()) { ?>
+				<div id='div-gpt-ad-1392106267992-3' style='width:728px; height:90px;'></div>
+			<?php } ?>
+		</div>
+	</div>
+
 <div class="row">
   <div class="col-sm-9">
 		<?php if(have_posts()) : ?>

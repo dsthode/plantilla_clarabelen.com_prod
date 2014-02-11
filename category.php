@@ -3,7 +3,7 @@
 	<div class="col-sm-12">
 		<div class="center-block">
 			<?php if (!is_preview() && !is_user_logged_in()) { ?>
-				<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9233923211507737" data-ad-slot="2275774469"></ins>
+				<div id='div-gpt-ad-1392106267992-3' style='width:728px; height:90px;'></div>
 			<?php } ?>
 		</div>
 	</div>
