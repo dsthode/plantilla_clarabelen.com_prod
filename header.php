@@ -4,6 +4,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta property="og:site_name" content="<?php bloginfo('name'); ?>">
+<meta property="og:locale" content="es_ES">
 <?php if(is_singular())  { ?>
 	<meta property="og:title" content="<?php echo get_the_title(); ?>">
 	<meta property="twitter:card" content="summary">
@@ -30,7 +31,6 @@
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="<?php bloginfo('url'); ?>">
 <?php } ?>
-<meta property="og:locale" content="es_ES">
 
 <meta property="fb:admins" content="1621837217">
 <meta property="fb:app_id" content="281305141912848">
@@ -89,7 +89,7 @@
 <div class="container-logo">
 	<div class="pattern-logo"></div>
 	<div class="logo-inspiraciones">
-		<a href="<?php bloginfo('url'); ?>" class="icon-logo-inspiraciones-colorful sprite-icon"></a>
+		<a href="<?php bloginfo('url'); ?>" class="logo-inspiraciones-colorful sprite-icon"></a>
 	</div>
 </div>
 
