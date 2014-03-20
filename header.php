@@ -94,14 +94,12 @@
 </div>
 
 <div>
-	<div class="pull-right">
-		<div>
-			<a target="_blank" href="https://plus.google.com/u/0/106083749576655779266/posts" alt="Mi perfil de Google+"><div class="icon-googleplus sprite-icon"></div></a>
-			<a target="_blank" href="https://www.facebook.com/inspirateconclara" alt="Mi página de Facebook"><div class="icon-facebook sprite-icon"></div></a>
-			<a target="_blank" href="https://twitter.com/clarabelengomez" alt="Mi perfil de Twitter"><div class="icon-twitter sprite-icon"></div></a>
-			<a target="_blank" href="http://www.pinterest.com/clarabelen" alt="Mi perfil de Pinterest"><div class="icon-pinterest sprite-icon"></div></a>
-			<a target="_blank" href="<?php bloginfo('rss2_url'); ?>" alt="Mi feed RSS"><div class="icon-rss sprite-icon"></div></a>
-		</div>
+	<div>
+		<a target="_blank" href="https://plus.google.com/u/0/106083749576655779266/posts" alt="Mi perfil de Google+"><div class="icon-googleplus sprite-icon"></div></a>
+		<a target="_blank" href="https://www.facebook.com/inspirateconclara" alt="Mi página de Facebook"><div class="icon-facebook sprite-icon"></div></a>
+		<a target="_blank" href="https://twitter.com/clarabelengomez" alt="Mi perfil de Twitter"><div class="icon-twitter sprite-icon"></div></a>
+		<a target="_blank" href="http://www.pinterest.com/clarabelen" alt="Mi perfil de Pinterest"><div class="icon-pinterest sprite-icon"></div></a>
+		<a target="_blank" href="<?php bloginfo('rss2_url'); ?>" alt="Mi feed RSS"><div class="icon-rss sprite-icon"></div></a>
 	</div>
 </div>
 
