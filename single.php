@@ -24,6 +24,12 @@
 					<div class="entry entry-content">   
 						<?php the_content(); ?>
 					</div>
+					<div class="sharing">
+						<div>Compártelo en:</div>
+						<a target="_blank" href="http://facebook.com/sharer/sharer.php?url=<?php the_permalink(); ?>" alt="Compartir en Facebook"><div class="icon-facebook sprite-icon"></div></a>
+						<a target="_blank" href="http://twitter.com/share?text=He%20descubierto%20esta%20manualidad%20en%20&url=<?php the_permalink(); ?>" alt="Compartir en Twitter"><div class="icon-twitter sprite-icon"></div></a>
+						<a target="_blank" href="https://plus.google.com/share?url=<?php the_permalink(); ?>" alt="Compartir en Google+"><div class="icon-googleplus sprite-icon"></div></a>
+					</div>
 					<div class="comments-template">
 						<?php comments_template(); ?>
 					</div>
