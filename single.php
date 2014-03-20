@@ -15,6 +15,12 @@
 				<div class="post hentry">
 					<p class="postmetadata"><span class="published"><?php the_date(); ?></span> | <?php comments_number('Sin comentarios', 'Un comentario', '% comentarios'); ?> | por <span class="author vcard"><span class="fn"><?php the_author(); ?></span></span></p>
 					<h3 class="entry-title"><a class="permalink" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+					<div class="sharing">
+						<span>Compartir en:</span>
+						<a href="http://facebook.com/sharer/sharer.php?url=<?php the_permalink(); ?>"><div class="icon-facebook sprite-icon"></div></a>
+						<a href="http://twitter.com/share"><div class="icon-twitter sprite-icon"></div></a>
+						<a href="https://plus.google.com/share?url=<?php the_permalink(); ?>"><div class="icon-googleplus sprite-icon"></div></a>
+					</div>
 					<div class="entry entry-content">   
 						<?php the_content(); ?>
 					</div>
