@@ -1,6 +1,11 @@
 	</div>
 
-<div id='div-gpt-ad-1392106267992-2' style='width:336px; height:280px;'></div>
+<div style='width:336px; height:280px;'>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-9233923211507737"
+		 data-ad-slot="5932112957"></ins>
+</div>
 
 </div><!-- /.container -->
 

@@ -3,8 +3,18 @@
 	<div class="col-sm-12">
 		<div class="center-block">
 			<?php if (!is_preview() && !is_user_logged_in()) { ?>
-				<div id='div-gpt-ad-1392106267992-3' style='width:728px; height:90px;' class="publi-responsive-grande"></div>
-				<div id='div-gpt-ad-1392106267992-1' style='width:320px; height:50px;' class="publi-responsive-peque"></div>
+				<div style='width:728px; height:90px;' class="publi-responsive-grande">
+					<ins class="adsbygoogle"
+							 style="display:inline-block;width:728px;height:90px"
+							 data-ad-client="ca-pub-9233923211507737"
+							 data-ad-slot="2275774469"></ins>
+				</div>
+				<div style='width:320px; height:100px;' class="publi-responsive-peque">
+					<ins class="adsbygoogle"
+							 style="display:inline-block;width:320px;height:100px"
+							 data-ad-client="ca-pub-9233923211507737"
+							 data-ad-slot="1362312557"></ins>
+				</div>
 			<?php } ?>
 		</div>
 	</div>
