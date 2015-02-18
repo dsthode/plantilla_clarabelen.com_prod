@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta property="og:site_name" content="<?php bloginfo('name'); ?>">
 <meta property="og:locale" content="es_ES">
+<meta name="p:domain_verify" content="1285c634aa3c647858cdd5ced175f1e7"/>
 <?php if(is_singular())  { ?>
 	<meta property="og:title" content="<?php echo get_the_title(); ?>">
 	<meta property="twitter:card" content="summary">
