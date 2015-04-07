@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+	<div id="fb-root"></div>
 	<div class="col-sm-12">
 		<div class="center-block">
 			<?php if (!is_preview() && !is_user_logged_in()) { ?>

@@ -15,6 +15,9 @@
 				<div class="post hentry">
 					<p class="postmetadata"><span class="updated"><?php the_date(); ?></span> | <?php comments_number('Sin comentarios', 'Un comentario', '% comentarios'); ?> | por <span class="author vcard"><span class="fn"><?php the_author(); ?></span></span></p>
 					<h3 class="entry-title"><a class="permalink" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+					<div>
+						<div class="fb-like" data-kid-directed-site="true" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+					</div>
 					<div class="sharing">
 						<div>Compártelo en:</div>
 						<a target="_blank" href="http://facebook.com/sharer/sharer.php?url=<?php urlencode(the_permalink()); ?>" alt="Compartir en Facebook"><div class="icon-facebook sprite-icon"></div></a>
