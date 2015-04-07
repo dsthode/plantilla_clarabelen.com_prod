@@ -27,7 +27,6 @@
 
 <?php wp_footer(); ?>
 <script src="<?php bloginfo('template_url'); ?>/script.js" type="text/javascript"></script>
-<script src="http://red.facilisimo.com/js/enquire.js"></script>
 <?php include('analytics.php'); ?>
 </body>
 </html>
