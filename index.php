@@ -24,7 +24,7 @@
 	<div class="col-sm-9">
 
 <?php 
-	if (!is_paged()) {
+	if (!is_paged() && !is_search()) {
 		include('featured.php');
 	} 
 ?>
