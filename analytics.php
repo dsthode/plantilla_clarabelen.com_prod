@@ -8,7 +8,7 @@
 ga('create', 'UA-12924973-5', 'auto');  // Replace with your property ID.
 ga('send', 'pageview');
 setTimeout(function() {
-	ga('send', 'NoBounce', 'read');
+	ga('send', 'event', 'NoBounce', 'read');
 }, 15000);
 
 </script>
